@@ -21,4 +21,8 @@ public class Inscripcion {
     public Materia getMateria() {
         return materia;
     }
+
+    public boolean estaAprobada() {
+        return aprobada;
+    }
 }

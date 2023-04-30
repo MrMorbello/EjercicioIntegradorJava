@@ -121,7 +121,7 @@ public class Gestor {
 
         Inscripcion inscripcion = new Inscripcion(alumno, materia);
 
-        if(inscripcion.aprobada) {
+        if(inscripcion.estaAprobada()) {
             System.out.println("La inscripción está aprobada");
         } else {
             System.out.println("La inscripción NO está aprobada");
